@@ -216,3 +216,32 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# IDX Exchange confidential source data and generated outputs
+/data_raw/
+/data_processed/
+/reports/
+/documentation/
+
+# Data files, including copies saved outside the normal folders
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.pkl
+*.pickle
+
+# Internal documents and screenshots
+*.pdf
+*.docx
+*.pptx
+/Screenshots/
+/screenshots/
+
+# Additional local secrets
+.env.*
+!.env.example
+credentials.json
+secrets.json
